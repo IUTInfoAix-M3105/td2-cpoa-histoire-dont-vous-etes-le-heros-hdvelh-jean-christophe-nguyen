@@ -65,6 +65,13 @@ public class GUIManager {
 	this.err = err;
 	inputReader = new Scanner(this.in);
   }
+    public void setInputReader(Scanner inputReader){
+        this.inputReader = inputReader;
+    }
+
+    public int getAnswer(){
+        return inputReader.nextInt();
+    }
 }
 
 // eof
